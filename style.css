@@ -9,5 +9,36 @@
 .container {
     margin: 35px 20px;
     background-color: brown;
+    border-radius: 9px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-radius: 9px;
+}
+
+nav:hover {
+    background-color: #000;
+    transition: 2s;
+}
+
+nav .logo {
+    color: white;
+}
+
+nav .nav-list {
+
+}
+
+nav .nav-list ul {
+    display: flex;
+    gap: 120px;
+}
+
+nav .nav-list a {
+    color: #fff;
+    font-size: 20px;
+}

@@ -18,6 +18,7 @@ nav {
     align-items: center;
     padding: 15px;
     border-radius: 9px;
+    margin-bottom: 50px;
 }
 
 nav:hover {
@@ -41,4 +42,30 @@ nav .nav-list ul {
 nav .nav-list a {
     color: #fff;
     font-size: 20px;
+}
+
+.imgs {
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.imgs img {
+    width: 300px;
+    height: 200px;
+    border: 3px solid blue ;
+    margin-bottom: 25px;
+}
+
+.imgs img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.ronaldo {
+    gap: 25px;
+}
+
+.imgs h2 {
+    color: #fff;
+    margin-bottom: 25px;
 }

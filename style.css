@@ -8,7 +8,7 @@
 
 .container {
     margin: 35px 20px;
-    background-color: brown;
+    background-color: black;
     border-radius: 9px;
 }
 
@@ -21,17 +21,8 @@ nav {
     margin-bottom: 50px;
 }
 
-nav:hover {
-    background-color: #000;
-    transition: 2s;
-}
-
 nav .logo {
-    color: white;
-}
-
-nav .nav-list {
-
+    color: #fff;
 }
 
 nav .nav-list ul {
@@ -57,7 +48,7 @@ nav .nav-list a {
 }
 
 .imgs img:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
     transition: 2s;
 }
 
@@ -68,4 +59,31 @@ nav .nav-list a {
 .imgs h2 {
     color: #fff;
     margin-bottom: 25px;
+}
+
+.text {
+    border: 3px solid blue;
+    padding: 30px;
+    align-items: center;
+}
+
+.text h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.text p {
+    text-align: center;
+    line-height: 25px;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+.text p:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition: 2s;
 }

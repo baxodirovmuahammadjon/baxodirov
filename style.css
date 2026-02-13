@@ -87,3 +87,25 @@ nav .nav-list a {
     transform: scale(1.1);
     transition: 2s;
 }
+
+.link_box {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    justify-content: space-around ;
+    border: 3px solid blue;
+
+}
+
+.link_box a {
+    color: #fff;
+    background-color: #000;
+    padding: 20px ;
+    border: 3px solid blue ;
+    border-radius: 9px;
+}
+
+.link_box:hover {
+    background-color: #fff;
+    transition: 2s;
+}
